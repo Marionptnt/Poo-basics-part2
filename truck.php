@@ -11,7 +11,7 @@ class truck extends vehicle
 
     private string $stockCapacity;
 
-    private int $load;
+    private int $load = 0;
 
     public function __construct(string $color, int $nbSeats, string $energy, string $stockCapacity)
     {
